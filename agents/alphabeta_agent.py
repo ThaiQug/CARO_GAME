@@ -3,7 +3,7 @@ import random
 from game.player import Player
 
 class AlphaBetaAgent(Player):
-    """Agent sử dụng thuật toán Alpha-Beta Pruning đã được tối ưu hóa."""
+    """Agent sử dụng thuật toán Alpha-Beta Pruning."""
     
     def __init__(self, symbol, depth=3):
         """Khởi tạo agent Alpha-Beta."""

@@ -3,7 +3,7 @@ import random
 from game.player import Player
 
 class MinimaxAgent(Player):
-    """Agent sử dụng thuật toán Minimax cải tiến với hiệu suất tối ưu."""
+    """Agent sử dụng thuật toán Minimax."""
     
     def __init__(self, symbol, depth=2):
         """Khởi tạo agent Minimax.
@@ -27,7 +27,7 @@ class MinimaxAgent(Player):
         }
         
     def get_move(self, board):
-        """Lấy nước đi tốt nhất sử dụng thuật toán Minimax."""
+        """Lấy nước đi tốt nhất Minimax."""
         start_time = time.time()
         self.position_cache.clear()  # Xóa cache
         
